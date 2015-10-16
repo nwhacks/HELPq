@@ -1,6 +1,6 @@
 // Enable OAuth working with https urls.
 if (window.__meteor_runtime_config__) {
-  window.__meteor_runtime_config__.ROOT_URL = window.location.protocol + "//" +window.location.hostname;
+  Meteor.absoluteUrl.defaultOptions.rootUrl = window.__meteor_runtime_config__.ROOT_URL = window.location.protocol + "//" +window.location.hostname;
 }
 
 Tickets = new Meteor.Collection("tickets");

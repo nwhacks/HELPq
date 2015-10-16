@@ -1,3 +1,6 @@
+// Set ROOT_URL for https
+Meteor.absoluteUrl.defaultOptions.rootUrl = process.env.ROOT_URL = 'https://q.nwhacks.io';
+
 // Startup Functions
 Meteor.startup(function(){
   // Grab the config
