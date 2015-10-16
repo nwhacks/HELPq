@@ -1,4 +1,4 @@
-HELPq
+HELPq - modified for nwHacks
 
 An extensible, customizable real-time queue system, built with [Meteor](https://www.meteor.com/).
 
